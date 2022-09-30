@@ -1,3 +1,92 @@
+*
+{
+    font-family: Poppins,sans-serif;
+    color: #24282f;
+    background-color: whitesmoke;
+
+}
+
+.nav-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    height: 80px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 0px 5px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; 
+    right: 0;
+    left: 0;
+    z-index:1030;
+}
+.nav-container > .main-logo
+{
+    width: 120px;
+    height: unset;
+    max-height: 150px;
+    transition: all .5s ease;
+    
+    
+}
+.nav-container  .image--logo{
+    vertical-align:middle;
+    border-style: none;
+    font-size: 1.25rem;
+    width: 120px;
+    
+}
+
+.nav-container > #second__div
+{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+.nav-container > #second__div > div
+{
+    padding: 20px;
+    font-style: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 0.16px;
+    color: #48505e;
+    
+}
+.buttonn
+{
+    border: 1px solid blue;
+    border-radius: 40px;
+    color:blue;
+    background-color:white;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    width: 80px;
+    margin-right: 10px;
+}
+.buttonn1
+{
+    border: 1px solid blue;
+    border-radius: 40px;
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    width: 80px;
+
+}
+.buttonn:hover {color:white;background-color: #5846f6;}
+.buttonn1:hover {background-color:darkblue}
+
+
 body
 {
     background-color: #fafafb  hsl(240,11%,98%)rgb(250,250,251);
@@ -28,10 +117,10 @@ body
 .container > .first-div >h1
 {
     text-align: left;
-    font-family: Poppins,sans-serif;
+    
     line-height: 42.5004px;
     letter-spacing: normal;
-    color: #24282f;
+    
     background-color: #fafafb;
 }
 .container > .first-div > p{
@@ -65,4 +154,168 @@ body
 }
 body{
     background-color:#fafafb  hsl(240,11%,98%)rgb(250,250,251);
+}
+
+.second-container
+{
+
+    width: 1000px;
+    margin: auto;
+}
+.second-container > .long-div
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.second-container > div >p
+{
+
+    text-align: center;
+    font-family: poppins,sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #24282f;
+    
+}
+
+.third-container
+{
+    
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.third-container > #one-div
+{
+
+height: auto;
+padding: 40px;
+margin-top: 80px;
+}
+
+.third-container #picture
+{
+    
+    height: 400px;
+    width: 500px;
+}
+
+.third-container #two-1-div
+{
+    
+    font-size: 16px;
+    line-height: 10px;
+    text-align: left;
+    letter-spacing: normal;
+    width: 300px;
+    padding-left: 30px;
+    margin-left: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.third-container  h1
+{
+   line-height: 40px;
+   width: 320px;
+}
+.third-container p1
+{
+    
+    font-size: 16px;
+    width: 200px;
+    line-height: 20px;
+}
+.blue{
+    color: blue;
+}
+
+.third-container #text
+{
+    font-size: 16px;
+    width: 200px;
+    line-height: 20px;
+}
+ .h1
+{
+    font-size: 16px;
+}
+
+#blue-logo
+{
+    width: 60px;
+    height: 60px;
+}
+
+.fourth-container
+{
+    
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; 
+    margin: auto;  
+}
+
+.logo-lightblue
+{
+    width: 60px;
+    height: 60px;
+}
+.fourth-container #one-box
+{
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: normal;
+    width: 400px;
+    padding-left: 20px;
+    margin-left: 100px;
+    padding-bottom: 40px;
+    line-height: 34px;
+    
+}
+ .size
+{
+    font-size: 37px;
+    line-height: 40px;
+}
+#img-4
+{
+    padding: 100px;
+    height: 300px;
+}
+#fifth-container
+{
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+#box-one
+{
+    
+    width: 50%;
+    height: 40%;
+    margin: auto;
+}
+#box-two
+{
+    
+    width: 40%;
+    padding: 10%;
+    
+}
+#box-one-img
+{
+    width: 80%;
+    padding: 80px;
+}
+.sixteen
+{
+    font-size: 20px;
+    line-height: 30px;
 }
