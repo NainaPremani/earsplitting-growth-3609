@@ -69,6 +69,7 @@
     line-height: 10px;
     text-align: center;
     width: 80px;
+    
     margin-right: 10px;
 }
 .buttonn1
@@ -318,4 +319,155 @@ margin-top: 80px;
 {
     font-size: 20px;
     line-height: 30px;
+}
+#sixth-container
+{
+    
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#sixth-container p{
+    font-size: 20px;
+    font-family: poppins,sans-serif;
+}
+.gridd
+{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 40px 30px;
+}
+#eight-container
+{
+    text-align: center;
+    justify-content: center;
+    
+    margin: 5%;
+    
+    line-height: 40px;
+}
+.b5
+{
+    border: 1px solid blue;
+    border-radius: 40px;
+    color:blue;
+    background-color:white;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    width: 15%;
+}
+.b5:hover {color:white;background-color: #5846f6;}
+#b5
+{
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#gridd > div
+{
+    
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.vid
+{
+    width:100%;
+    border-radius: 20px;
+
+}
+
+.seventh-container
+{
+    border: 5px solid black;
+    margin-top: 10%;
+    text-align: center;
+}
+#ninth-container
+{
+    
+    width: 80%;
+    
+    text-align: center;
+    margin: 4%;
+    margin-left: 10%;
+}
+#three-container
+{
+    
+    width: 60%;
+    
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+                
+}
+#three-container > div{
+    width:30%;
+    margin:auto;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 20px 0px;
+    border-radius: 5px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    margin-bottom: auto;
+
+}
+.rect-img
+{
+    width: 100%;
+}
+
+
+
+#vertical-box
+{
+    margin-bottom: 5%;
+}
+
+#last-container
+{
+    border: 1px solid blue;
+    border-radius: 30px;
+    margin: auto;
+    background: url(https://storage.googleapis.com/lumen5-site-images/website-assets/cta-bg.png);
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#last-button
+{
+    border: 1px solid blue;
+    border-radius: 30px;
+    color: blue;
+    background-color:white;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+
+#last-button:hover {background-color:whitesmoke}
+
+#last-container > h1{
+    background: url(https://storage.googleapis.com/lumen5-site-images/website-assets/cta-bg.png);
+    color: white;
+    font-size: 40px;
+    }
+#last-container p{
+    background: url(https://storage.googleapis.com/lumen5-site-images/website-assets/cta-bg.png);
+    color: white;
+    font-size: 20px;
+    
 }

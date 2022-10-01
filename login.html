@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div>
+      <input type="email" label="Work Email" />
+      <input type="password" label="password" />
+      <button>Login</button>
+    </div>
+  </body>
+</html>
+<script>
+  let submit_btn = document.querySelector("button");
+  submit_btn.addEventListener("click", submitfunc);
+
+  function submitfunc() {
+    let input_tags = document.querySelectorAll("input");
+    let email_details = input_tags[0].value;
+    let password = input_tags[1].value;
+
+    let data = JSON.parse(localStorage.getItem("signup_details"));
+    console.log(data);
+    console.log(email_details, password);
+  }
+</script>
