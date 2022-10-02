@@ -384,12 +384,7 @@ margin-top: 80px;
 
 }
 
-.seventh-container
-{
-    border: 5px solid black;
-    margin-top: 10%;
-    text-align: center;
-}
+
 #ninth-container
 {
     
@@ -444,6 +439,7 @@ margin-top: 80px;
     color: white;
     text-align: center;
     padding-bottom: 2%;
+    height: 300%;
 }
 #last-button
 {
@@ -468,6 +464,65 @@ margin-top: 80px;
 #last-container p{
     background: url(https://storage.googleapis.com/lumen5-site-images/website-assets/cta-bg.png);
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     
+}
+.footer
+  {
+    background-color:#24282f;
+    
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    margin-top: 5%;
+
+  }
+  .footer > div{
+
+    background-color: #24282f;
+    text-align: left;
+
+  }
+  .footer > div >img
+  {
+    background-color: #24282f;
+    
+    width: 20%;
+    
+  }
+  .footer > div >p
+  {
+    font-size: 18 px;
+    background-color: #24282f;
+    color: white;
+    padding: 2%;
+  }
+.footer-3 
+{
+    width: 40%;
+
+    line-height: 20px;
+}
+.footer .footer-3 p
+{
+    font-size: 17px;
+}
+#first-footer-div
+{
+    padding: 5%;
+}
+#end
+{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+}
+#end div{
+    background-color: #1b1b1b;
+}
+#end p{
+    background-color: #1b1b1b;
+    color: white;
+    padding: 12px;
 }

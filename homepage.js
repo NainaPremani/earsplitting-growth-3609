@@ -11,3 +11,6 @@ console.log(video);
       pause[i].pause();
     });
   }
+
+
+  
